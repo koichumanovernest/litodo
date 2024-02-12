@@ -1,0 +1,43 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	.kartochka {
+		display: flex;
+		justify-content: space-evenly;
+		border: 2px solid red;
+		width: 700px;
+		gap: 0px;
+		border-radius: 20px;
+		img {
+			border-radius: 30px;
+			margin-left: -30px;
+		}
+	}
+	gap: 50px;
+
+	.text {
+		display: flex;
+		// justify-content: space-eve;
+		gap: 60px;
+
+		.greenText {
+			width: 10px;
+			height: 10px;
+			background: green;
+			border-radius: 50%;
+		}
+		.redText {
+			width: 10px;
+			height: 10px;
+			background: red;
+			border-radius: 50%;
+			margin-left: 10px;
+		}
+		.unknownText {
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background: rgb(107, 105, 105);
+		}
+	}
+}
